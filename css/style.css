@@ -76,6 +76,7 @@ color: #676770;
 
 .welcome {
     min-height: 600px;
+    z-index: 1;
     height: 100vh;
     display: flex;
     justify-content: center;
