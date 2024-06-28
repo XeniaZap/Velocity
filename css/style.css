@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body {
+    font-family:"Open Sans", sans-serif ;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+p {
+    color: #6A859C;
+    line-height: 1.8;
+}
+
+
+.header-container{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav ul {
+    display: flex;
+
+
+}
+
+.header {
+    padding: 20px 0;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+
+}
+
+.header-nav li + li {
+    margin-left: 40px;
+}
+
+
+.logo {
+    font-size:25px;
+    color: #69B9FF;
+    letter-spacing: 4px;
+}
+
+.header-nav a {
+    font-size: 16px;
+color: #676770;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.header-nav a:hover {
+    color:#0082F3;
+}
+
+.header-nav a:active {
+    color:#0062b6;
+
+}
+
+/*.hide {*/
+/*    display: none !important;*/
+
+/*}*/
+
+.welcome {
+    min-height: 600px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 195px 0;
+    color: white;
+    text-align: center;
+    background-color: #282936;
+    background-image: url("images/hello.png");
+    background-size: cover;
+    background-position:center;
+}
+
+.main-container {
+
+}
+
+.welcome-title {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.welcome-links > * + * {
+margin-left: 20px;
+}
+
+.link-primary {
+    display: inline-block;
+    padding: 11px 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 4px;
+    background-color: #69B9FF;
+
+    transition: background-color: 0.5s;
+}
+
+.link-primary:hover {
+    background-color: #7cc2ff;
+}
+
+.link-primary:active {
+    background-color: #0062b6;
+}
+
+.link {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border:1px solid #FFFF;
+    border-radius: 4px;
+
+
+}
+
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.link:active {
+    background-color: rgba(0, 0, 0,  0.2 );
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+.about {
+
+
+}
+
+.common-section {
+text-align: center;
+    padding: 80px 0;
+}
+
+.title {
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #676770;
+    margin-bottom: 17px;
+}
+
+
+.subtitle {
+font-size:17px ;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8E8E9C;
+}
+
+.about .cards-wrapper {
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+
+h4 {
+    font-size:20px ;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #8E8E9C;
+    margin-bottom:14px ;
+}
+
+ .about .card {
+    padding: 35px 15px 25px 15px;
+    width: 300px;
+    border: 1px solid #DCEBF7;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+.about .card img {
+    width:94px;
+    height: 94px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.services {
+
+}
+
+
+.common-section {
+
+}
+
+.common-section--dark {
+background-color: #192024;
+}
+
+.common-section--dark * {
+    color: white;
+}
+
+
+.subtitle {
+    margin-bottom: 60px;
+}
+
+.common-section--dark  .subtitle {
+color: #E8E8E8;
+}
+
+
+.services .cards-wrapper {
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services .card img {
+margin-bottom: 20px;
+
+}
+
+.services .card h4 {
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.services .card p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 17px;
+}
+
+.link-service {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border:1px solid #FFFF;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+}
